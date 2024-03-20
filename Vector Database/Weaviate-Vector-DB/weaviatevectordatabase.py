@@ -55,7 +55,7 @@ len(docs)
 
 from langchain.embeddings.openai import OpenAIEmbeddings
 
-embeddings = OpenAIEmbeddings(openai_api_key = OPENAI_API_KEY)
+embeddings = OpenAIEmbeddings(openai_api_key = OPENAI_API_KEY) # we can use free embadding by using sentence transformer
 
 embeddings
 
